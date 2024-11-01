@@ -1,0 +1,31 @@
+.nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 2rem;
+    gap: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--gray-dark);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.nav a {
+    color: var(--gold);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: var(--green);
+    color: #ffffff;
+}
+
+.nav .current {
+    background-color: var(--gold);
+    color: #ffffff;
+    font-weight: bold;
+}

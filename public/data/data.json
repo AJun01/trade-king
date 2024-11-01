@@ -1,0 +1,72 @@
+[
+    {
+      "companyName": "Tech Corp",
+      "symbol": "TC",
+      "openingPrice": 150.00,
+      "high": 155.00,
+      "low": 145.00
+    },
+    {
+      "companyName": "Finance Inc",
+      "symbol": "FI",
+      "openingPrice": 80.50,
+      "high": 85.00,
+      "low": 79.00
+    },
+    {
+      "companyName": "Health Co",
+      "symbol": "HC",
+      "openingPrice": 200.00,
+      "high": 210.00,
+      "low": 195.00
+    },
+    {
+      "companyName": "Auto Motors",
+      "symbol": "AM",
+      "openingPrice": 320.00,
+      "high": 330.50,
+      "low": 310.00
+    },
+    {
+      "companyName": "Retail Giant",
+      "symbol": "RG",
+      "openingPrice": 500.00,
+      "high": 510.00,
+      "low": 495.00
+    },
+    {
+      "companyName": "Energy Corp",
+      "symbol": "EC",
+      "openingPrice": 120.50,
+      "high": 125.00,
+      "low": 118.00
+    },
+    {
+      "companyName": "Media Group",
+      "symbol": "MG",
+      "openingPrice": 95.75,
+      "high": 100.00,
+      "low": 94.00
+    },
+    {
+      "companyName": "Food & Beverage",
+      "symbol": "FB",
+      "openingPrice": 65.20,
+      "high": 68.50,
+      "low": 64.00
+    },
+    {
+      "companyName": "Tech Innovators",
+      "symbol": "TI",
+      "openingPrice": 230.30,
+      "high": 240.00,
+      "low": 225.50
+    },
+    {
+      "companyName": "Pharma Plus",
+      "symbol": "PP",
+      "openingPrice": 310.00,
+      "high": 320.00,
+      "low": 300.00
+    }
+  ]

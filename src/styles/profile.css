@@ -1,0 +1,60 @@
+/* profile.css */
+.profile-page {
+    font-family: 'Russo One', sans-serif;
+    background-color: rgb(33, 37, 41);
+    color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stock-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stock-item {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    color: var(--gold);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-more-btn {
+    background-color: var(--green);
+    color: #ffffff;
+}
+
+.buy-more-btn:hover {
+    background-color: #218838;
+}
+
+.sell-btn {
+    background-color: var(--red);
+    color: #ffffff;
+}
+
+.sell-btn:hover {
+    background-color: #c82333;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: var(--gold);
+}

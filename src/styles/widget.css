@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+.stock-widget {
+    font-family: "Russo One", sans-serif;
+    border: 1px solid var(--gray-light);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--gray-dark);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #e0e0e0;
+}
+
+.stock-widget h3 {
+    margin: 0;
+    color: var(--gold);
+}
+
+.stock-widget p {
+    margin: 0.5rem 0;
+    color: var(--gray-light);
+}
+
+.stock-widget:hover {
+    background-image: linear-gradient(90deg, var(--gray-dark), var(--gold) 50%, var(--gray-dark));
+}
+
+.buy-widget {
+    border: 1px solid var(--gray-light);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--gray-dark);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #e0e0e0;
+}
+
+.buy-widget h3 {
+    color: var(--gold);
+}
+
+.buy-widget .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buy-widget input {
+    padding: 0.25rem;
+    margin-left: 0.5rem;
+    width: 60px;
+}
+
+.buy-widget button {
+    padding: 0.5rem 1rem;
+    background-color: var(--green);
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buy-widget button:hover {
+    background-color: var(--gray-light);
+}
+
+.sell-widget {
+    border: 1px solid var(--gray-light);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--gray-dark);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #e0e0e0;
+}
+
+.sell-widget h3 {
+    color: var(--gold);
+}
+
+.sell-widget .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sell-widget input {
+    padding: 0.25rem;
+    margin-left: 0.5rem;
+    width: 60px;
+}
+
+.sell-widget button {
+    padding: 0.5rem 1rem;
+    background-color: var(--red);
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sell-widget button:hover {
+    background-color: var(--gray-light);
+}
